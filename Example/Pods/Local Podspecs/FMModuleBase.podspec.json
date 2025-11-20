@@ -1,0 +1,28 @@
+{
+  "name": "FMModuleBase",
+  "version": "0.0.1",
+  "summary": "基础组件。存放常用的第三方库（如网络请求、图片加载库等）、多语言翻译文件、图片视频等资源。",
+  "homepage": "https://github.com/MrLfm/FMModuleBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrLfm": "lfm_1992@126.com"
+  },
+  "source": {
+    "git": "https://github.com/MrLfm/FMModuleBase.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "FMModuleBase/Classes/**/*",
+  "resource_bundles": {
+    "FMModuleBaseBundle": [
+      "FMModuleBase/Assets/**/*"
+    ]
+  },
+  "swift_version": "5.0"
+}

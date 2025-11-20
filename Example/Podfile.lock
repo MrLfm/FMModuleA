@@ -1,0 +1,35 @@
+PODS:
+  - FMModuleA (0.0.1):
+    - FMModuleBase
+    - FMModuleCenter
+  - FMModuleB (0.0.1):
+    - FMModuleBase
+    - FMModuleCenter
+  - FMModuleBase (0.0.1)
+  - FMModuleCenter (0.0.1)
+
+DEPENDENCIES:
+  - FMModuleA (from `../`)
+  - FMModuleB (from `../../FMModuleB`)
+  - FMModuleBase (from `../../FMModuleBase`)
+  - FMModuleCenter (from `../../FMModuleCenter`)
+
+EXTERNAL SOURCES:
+  FMModuleA:
+    :path: "../"
+  FMModuleB:
+    :path: "../../FMModuleB"
+  FMModuleBase:
+    :path: "../../FMModuleBase"
+  FMModuleCenter:
+    :path: "../../FMModuleCenter"
+
+SPEC CHECKSUMS:
+  FMModuleA: 24da402793ff1813e63c18c25ee89d10ae3db49f
+  FMModuleB: 4855ad96bf8a5055cd72c306db020580dffd28e5
+  FMModuleBase: 4bf95ab05c43373adb5ab3a7f21bff325f85cc83
+  FMModuleCenter: 8dee97584eb5ec95a9d79a38d62d19f8f324d45f
+
+PODFILE CHECKSUM: 12bb58364a2a788b6826932828f8a5e39207097c
+
+COCOAPODS: 1.16.2

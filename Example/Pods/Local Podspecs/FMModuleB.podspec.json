@@ -1,0 +1,32 @@
+{
+  "name": "FMModuleB",
+  "version": "0.0.1",
+  "summary": "组件B",
+  "homepage": "https://github.com/MrLfm/FMModuleB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MrLfm": "lfm_1992@126.com"
+  },
+  "source": {
+    "git": "https://github.com/MrLfm/FMModuleB.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "FMModuleB/Classes/**/*",
+  "resource_bundles": {
+    "FMModuleBBundle": [
+      "FMModuleB/Classes/**/*.{xib,nib}"
+    ]
+  },
+  "dependencies": {
+    "FMModuleBase": [],
+    "FMModuleCenter": []
+  },
+  "swift_version": "5.0"
+}

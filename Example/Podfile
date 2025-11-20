@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'FMModuleA_Example' do
+  pod 'FMModuleA', :path => '../'
+  pod 'FMModuleB', :path => '../../FMModuleB'
+  pod 'FMModuleBase', :path => '../../FMModuleBase'
+  pod 'FMModuleCenter', :path => '../../FMModuleCenter'
+
+  target 'FMModuleA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

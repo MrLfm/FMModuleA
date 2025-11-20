@@ -1,0 +1,6 @@
+framework module FMModuleBase {
+  umbrella header "FMModuleBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
